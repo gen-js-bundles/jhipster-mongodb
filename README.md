@@ -1,0 +1,2 @@
+# jhipster-mongodb
+JHipster MongoDB
