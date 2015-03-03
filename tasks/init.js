@@ -69,11 +69,6 @@ module.exports = {
         data.global.version.java = '1.8';
       }
 
-      if(data.global.build == null) {
-        data.global.build = {};
-      }
-      data.global.build.tool = answers.buildTool;
-
       gfile.writeYaml(path.join(process.cwd(),'Genjsfile.yml'), data);
 
       if(callback) {
